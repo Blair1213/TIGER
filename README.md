@@ -48,9 +48,14 @@ To reproduce the results of TIGER or train TIGER, you are supposed to download a
 
 ```
 Then, you can train TIGER with the following command:
-'''
+
+```
+python main.py
+```
+or
+```
 python main.py -dataset drugbank/kegg/ogbl-biokg -extractor khop-subtree/randomWalk/probability
-'''
+```
 
 The hyper-parameters used to train TIGER on above three datasets are shown in our paper.
 
