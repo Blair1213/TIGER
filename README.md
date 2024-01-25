@@ -7,4 +7,16 @@ TIGER leverages the Transformer architecture to effectively exploit the structur
 TIGER is mainly tested on both Linux and Mac OS.
 
 TIGER has the following dependencies on Mac OS:
+python 3.7.16
+rdkit
+torch 1.10.1
+torch-cluster 1.5.9
+torch-geometric 2.0.3
+torch-scatter 2.0.9
+torch-sparse 0.6.12
+torch-spline-conv 1.2.1
+torchvision 0.11.2
+pandas 1.3.5
+numpy 1.19.5
+
 
