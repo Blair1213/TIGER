@@ -6,23 +6,21 @@ TIGER leverages the Transformer architecture to effectively exploit the structur
 
 # Installation & Dependencies
 
-TIGER is mainly tested on both Linux and Mac OS.
-
-TIGER has the following dependencies on Mac OS:
+TIGER is mainly tested on a Linux OS with NVIDIA A100 40G and its dependecies are below.
 
 |Package|Version|
 |-----:|-------|
-|python| 3.7.16|
-|rdkit||
-|torch| 1.10.1|
-|torch-cluster |1.5.9|
-|torch-geometric| 2.0.3|
+|python| 3.6.13|
+|rdkit|2021.9.4|
+|pytorch| 1.10.2|
+|cuda|11.6.2|
+|torch-cluster|1.5.9|
+|torch-geometric| 2.0.2|
 |torch-scatter |2.0.9|
 |torch-sparse| 0.6.12|
-|torch-spline-conv |1.2.1|
-|torchvision| 0.11.2|
-|pandas |1.3.5|
-|numpy| 1.19.5|
+|torchvision| 0.11.3|
+
+In addition, TIGER can also be trained on a Mac OS machine equipped with 16GB RAM.
 
 # Datasets
 
