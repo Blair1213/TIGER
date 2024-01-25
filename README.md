@@ -22,4 +22,12 @@ TIGER has the following dependencies on Mac OS:
 |pandas |1.3.5|
 |numpy| 1.19.5|
 
+# Datasets
+
+TIGER is trained and tested on three datasets, including DrugBank, KEGG, and OGB-biokg. The networks are availiable at https://drive.google.com/file/d/13ZFDZ28Eam5C5gs-yw-UZ6Yi_X2jkN69/view?usp=share_link
+
+# Reproducibility
+
+To reproduce the results of TIGER or train TIGER, you are supposed to download above datasets first, and put it into a file "datasets/". The directory structure of TIGER is shown below:
+
 
